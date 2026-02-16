@@ -1,0 +1,7 @@
+## this file contain all the dependencise require for this project
+
+
+##=================================
+## Web Crawling
+##=================================
+playwright

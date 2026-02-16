@@ -1,0 +1,50 @@
+### Confiuration file for context engineering.
+### Contain all the necessary innformation for the project and we can change all the 
+### paramters using this document without changign anything in the code structures.
+
+##=====================================
+## Peovider Settings
+##=====================================
+provider:
+  ## we set the openrouter as default provider in this project 
+  ## we can use openai or gemini as well.
+  ## we can access all the llm models using the openrouter as provider
+  default: openrouter
+
+  ## Model tier general,strong or reasoning
+  tier: general
+  ## Open router base url
+  openrouter_url: https://openrouter.ai/settings/keys
+
+##=====================================
+## LLM Configuration
+##=====================================
+llm:
+  temperature: 0.0 ## deteministic
+  max_tokens: 2000
+  streaming: false
+
+##====================================
+## Embeddig Model Configuration
+##====================================
+embedding:
+  ## Model tier default or small
+  tier: default
+  batch_size: 100
+  show_progress: false
+
+# ====================================
+# Crawling Configuration
+# ====================================
+crawling:
+  max_depth: 3
+  delay_seconds: 2.0
+  max_pages: 100
+
+##====================================
+## Project Paths Configuration
+##====================================
+data_dir: data
+vector_dir: data/vectorstore
+crawl_dir: data/raw
+markdown_dir: data/markdown

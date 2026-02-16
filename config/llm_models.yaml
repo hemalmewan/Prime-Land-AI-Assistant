@@ -1,0 +1,39 @@
+## LLM Model Configuration for Context Engineering
+## Use the Openrouter as the Defalut LLM Provider
+
+
+##=============================================
+## OpenRouter Models
+##=============================================
+## OpneRouter provides the unfied access for all the LLM models(e.g., OpenAI,Google Gemini,Groq etc)
+
+openrouter:
+  chat:
+    general: openai/gpt-4o-mini
+    strong:  openai/gpt-4o
+    reason:  openai/o3-mini
+  
+  embedding:
+    default: openai/text-embedding-3-large
+    small: openai/text-embedding-3-small
+
+##============================================================
+## Provider Specific Models directly using the API Access
+##============================================================
+
+openai:
+  chat:
+    general: gpt-4o-mini
+    strong: gpt-4o
+    reason: 03-mini
+  
+  embedding:
+    default: text-embedding-3-large
+    small: text-embedding-3-small
+
+google:
+  chat:
+    general: gemini-2.0-flash-exp
+    strong: gemini-2.0-flash-thinking-exp
+    reason: gemini-2.0-falsh-thining-exp
+  
