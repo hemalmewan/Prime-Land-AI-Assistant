@@ -5,3 +5,6 @@
 ## Web Crawling
 ##=================================
 playwright
+pyyaml
+beautifulsoup4
+aiofiles

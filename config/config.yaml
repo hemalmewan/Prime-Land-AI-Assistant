@@ -37,9 +37,11 @@ embedding:
 # Crawling Configuration
 # ====================================
 crawling:
+  base_url: https://www.primelands.lk
   max_depth: 3
-  delay_seconds: 2.0
-  max_pages: 100
+  max_pages: 20
+  timeout: 30000
+  rate_limit_seconds: 2.0
 
 ##====================================
 ## Project Paths Configuration
@@ -48,3 +50,4 @@ data_dir: data
 vector_dir: data/vectorstore
 crawl_dir: data/raw
 markdown_dir: data/markdown
+processed_dir: data/processed
