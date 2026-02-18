@@ -8,3 +8,14 @@ playwright
 pyyaml
 beautifulsoup4
 aiofiles
+
+##================================
+## Token Configuration
+##================================
+tiktoken
+
+##===============================
+## Langchain Family
+##===============================
+langchain_core
+langchain_text_splitters

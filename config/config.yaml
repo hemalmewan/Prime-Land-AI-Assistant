@@ -51,3 +51,34 @@ vector_dir: data/vectorstore
 crawl_dir: data/raw
 markdown_dir: data/markdown
 processed_dir: data/processed
+
+##====================================
+## Chunking Configuration
+##====================================
+chunking:
+  ## configure fixed chunking startegy
+  fixed_chunk:
+    chunk_size: 800
+    chunk_overlap: 100
+  
+  ## configure semantic chunking strategy
+  semantic_chunk:
+    chunk_size: 1000
+    min_chunk_size: 200
+  
+  ## configure sliding chunknig strategy
+  sliding_chunk:
+    chunk_size: 512
+    overlap: 256
+  
+  ## configure parent-child chunking starategy
+  parent_child_chunk:
+    parent_chunk: 1200
+    child_chunk: 250
+    child_overlap: 50
+  
+  ## configure late chunking starategy
+  late_chunk:
+    base_size: 1000
+    split_size: 300
+    context_window: 150
