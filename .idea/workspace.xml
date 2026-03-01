@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e858550c-4cca-4f5e-9229-5975a4dbdb96" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/markdown/en.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/markdown/en.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/markdown/page.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/markdown/page.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/fixed_chunking.jsonl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/late_chunking.jsonl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/parent_child_chunking.jsonl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/prime_lands_corpus.jsonl" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/prime_lands_corpus.jsonl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/sementic_chunking.jsonl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/sliding_window_chunking.jsonl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/01_crawl_primelands.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/01_crawl_primelands.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/02_chunking_and_embedding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/02_chunking_and_embedding.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context_engineering" beforeDir="false" afterPath="$PROJECT_DIR$/src/context_engineering" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context_engineering/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/context_engineering/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context_engineering/crawler/primelands_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/context_engineering/crawler/primelands_crawler.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="3A4Dkc3enGDgGFDp0pf46PxqGAJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ASUS"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e858550c-4cca-4f5e-9229-5975a4dbdb96" name="Changes" comment="" />
+      <created>1771843097306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771843097306</updated>
+    </task>
+    <servers />
+  </component>
+</project>

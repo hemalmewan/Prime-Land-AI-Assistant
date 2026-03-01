@@ -1,0 +1,88 @@
+# =============================================================================
+# PRIME LANDS - KNOWN FAQs
+# =============================================================================
+# These FAQs are pre-loaded into the semantic cache.
+# Run `cag_service.warm_faqs()` to generate responses for them.
+#
+# Benefits:
+# - Instant responses for common questions
+# - Semantic matching catches paraphrases
+# - Never expire (unlike history which has 24h TTL)
+# =============================================================================
+
+# Company General Information
+general:
+  - "What is Prime Lands?"
+  - "Tell me about Prime Lands real estate."
+  - "Is Prime Lands a registered company?"
+  - "Where is Prime Lands located?"
+  - "What is the office address of Prime Lands?"
+  - "How can I contact Prime Lands?"
+  - "What is the phone number of Prime Lands?"
+  - "What are the working hours of Prime Lands?"
+
+# Projects & Locations
+projects:
+  - "What projects does Prime Lands currently offer?"
+  - "Where are Prime Lands projects located?"
+  - "Do you have land for sale in Negombo?"
+  - "Do you have land for sale near Colombo?"
+  - "Which districts do you operate in?"
+  - "Are your lands close to main roads?"
+  - "Are there residential projects available?"
+  - "Do you offer commercial land?"
+
+# Pricing & Payments
+pricing:
+  - "What is the price per perch?"
+  - "How much does land cost at Prime Lands?"
+  - "Do you offer installment payment plans?"
+  - "Can I pay monthly installments?"
+  - "Is there a down payment required?"
+  - "Do you offer discounts?"
+  - "Are there hidden charges?"
+
+# Reservation & Purchase Process
+reservation:
+  - "How do I reserve a land plot?"
+  - "What is the reservation process?"
+  - "What documents are required to purchase land?"
+  - "How long does the transfer process take?"
+  - "Can I book a land online?"
+  - "Can I visit the site before purchasing?"
+  - "Is there a site inspection available?"
+
+# Legal & Approvals
+legal:
+  - "Are Prime Lands properties government approved?"
+  - "Are the lands clear title?"
+  - "Do you provide deed documents?"
+  - "Are the lands approved by local authorities?"
+  - "Is there bank approval for your projects?"
+  - "Can foreigners buy land from Prime Lands?"
+
+# Bank Loans & Financing
+financing:
+  - "Do you support bank loans?"
+  - "Which banks provide loans for your projects?"
+  - "Can I get a housing loan for this land?"
+  - "Do you assist with loan processing?"
+  - "What is the eligibility for bank loans?"
+
+# Infrastructure & Facilities
+infrastructure:
+  - "Do your projects have electricity and water?"
+  - "Are there paved roads in the project?"
+  - "Is drainage system available?"
+  - "Are the lands flood-free?"
+  - "Is there security in the project area?"
+  - "Are the plots properly surveyed?"
+
+# Investment & Value
+investment:
+  - "Is buying land from Prime Lands a good investment?"
+  - "Will the land value appreciate?"
+  - "Is this suitable for residential construction?"
+  - "Is this suitable for commercial use?"
+  - "Why should I invest in Prime Lands?"
+  - "What are the benefits of buying early?"

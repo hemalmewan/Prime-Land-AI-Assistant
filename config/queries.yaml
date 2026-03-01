@@ -1,0 +1,136 @@
+# =============================================================================
+# Prime Lands RAG Evaluation Queries
+# =============================================================================
+# This YAML file contains a curated set of evaluation queries designed to
+# test the CAG cache Effectiveness.
+#
+# The queries include factual, multi-hop, legal, financial, and comparison
+# questions to evaluate:
+#   - CAG corrective behavior
+#   - Cache Latency and LLM Latency
+#   - Cache Hit rate
+#   - Estimate LLM cost
+#
+# These queries are used for benchmarking and system performance analysis.
+# =============================================================================
+
+## General Company Information
+general: 
+  - "What is Prime Lands?"
+  - "Tell me about Prime Lands real estate."
+  - "Is Prime Lands a registered company?"
+  - "Where is Prime Lands located?"
+  - "What is the office address of Prime Lands?"
+  - "How can I contact Prime Lands?"
+  - "What is the phone number of Prime Lands?"
+  - "What are the working hours of Prime Lands?"
+  - Does Prime Lands operate only in Colombo?
+  - What makes Prime Lands different from other developers?
+  - Is Prime Lands a trusted real estate company?
+  - How many projects has Prime Lands completed?
+  - Does Prime Lands focus on residential or commercial projects?
+  - What are the company’s core values?
+  - Is Prime Lands approved by government authorities?
+
+## Project Information
+projects:
+  - What projects does Prime Lands currently have in Colombo?
+  - Are there any Prime Lands projects in Gampaha?
+  - List ongoing projects by Prime Lands.
+  - What are the completed projects of Prime Lands?
+  - Which Prime Lands project is closest to Kottawa?
+  - What facilities are available in Prime Lands projects?
+  - Do Prime Lands projects have proper road access?
+  - Are there gated community projects available?
+  - Which project has the best infrastructure?
+  - Are utilities included in the projects?
+  - What is the size range of land plots?
+  - Are Prime Lands projects located near highways?
+  - Which project is best for residential living?
+  - Which project is best for investment?
+  - Are schools and hospitals nearby Prime Lands projects?
+  - What development plans are nearby current projects?
+  - Are Prime Lands plots surveyed and approved?
+  - How far are the projects from Colombo city?
+  - Do projects have drainage systems?
+  - Are there corner plots available?
+
+##Pricing & Payments
+pricing:
+  - What is the price per perch?
+  - How much does a land plot cost in Colombo suburb projects?
+  - Are there installment payment options?
+  - What is the minimum down payment?
+  - Can I pay in monthly installments?
+  - What happens if I miss a payment?
+  - Is there interest on installment plans?
+  - Are there hidden charges?
+  - Do prices vary by location?
+  - Are discounts available?
+  - Is there a booking fee?
+  - What is the cancellation policy?
+  - Can foreigners purchase land?
+  - Are bank loans accepted?
+  - Does Prime Lands help with bank loans?
+  - Are there promotional offers?
+  - What documents are required to purchase?
+  - When does ownership transfer?
+  - Are legal fees included?
+  - Can I resell before completing payment?
+
+##Multi-Document Retrieval
+hard_rag:
+  - Compare two ongoing Prime Lands projects in Colombo suburbs in terms of price, location advantages, and legal approvals.
+  - Which Prime Lands projects are located near expressways and what infrastructure benefits do they offer?
+  - List all projects with installment plans and explain their payment terms.
+  - Which projects are fully completed and ready for deed transfer?
+  - Compare projects in Gampaha and Kottawa in terms of investment potential.
+  - Which project has the largest average plot size?
+  - Identify projects with drainage and internal road development already completed.
+  - Which projects are suitable for immediate construction and why?
+  - What legal approvals are common across all Prime Lands projects?
+  - Summarize the differences between completed and ongoing projects.
+
+##Retrieval Depth Testing
+depth_testing:
+  - What amenities are included in gated projects?
+  - Are there corner plots available in Colombo suburb projects?
+  - How far are projects from major hospitals and schools?
+  - Which projects are closest to expressway entrances?
+  - Are internal roads asphalted or gravel?
+  - What utilities are included in the development?
+  - Which projects have drainage systems installed?
+  - Are electricity and water connections ready?
+  - What plot sizes are available?
+  - Which projects are best for residential living?
+
+##Legal & Compliance
+legal:
+  - Are Prime Lands projects approved by local authorities?
+  - Does each plot have a clear deed?
+  - Are there any legal disputes?
+  - How long does deed registration take?
+  - What legal approvals do projects have?
+  - Are lands freehold?
+  - What happens legally if payment is delayed?
+  - Are lands zoned for residential use?
+  - Is there government approval documentation?
+  - "Are Prime Lands properties government approved?"
+  - "Are the lands clear title?"
+  - "Do you provide deed documents?"
+  - "Are the lands approved by local authorities?"
+  - "Is there bank approval for your projects?"
+  - "Can foreigners buy land from Prime Lands?"
+
+##Financing Questions
+financing:
+  - What financing options are available when purchasing land from Prime Lands?
+  - Does Prime Lands offer installment payment plans, and what are the typical durations?
+  - What is the minimum down payment required to reserve a Prime Lands property?
+  - Does Prime Lands partner with banks for land loan facilities?
+  - What documents are required to apply for financing through Prime Lands?
+  - "Do you support bank loans?"
+  - "Which banks provide loans for your projects?"
+  - "Can I get a housing loan for this land?"
+  - "Do you assist with loan processing?"
+  - "What is the eligibility for bank loans?"

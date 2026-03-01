@@ -1,8 +1,8 @@
-# Lands and Houses for sale in Sri Lanka | Best Real Estate Companies -| Prime Lands
+# මහල් නිවාස
 
-URL: https://www.primelands.lk/apartment/sin
-Headings: ['මහල් නිවාස', 'විශේෂාංග සහිත මහල් නිවාස', 'Skye Blossom - Kottawa', 'Venezia - Negombo', 'The Reflection - Samagi Mawatha Thalawathugoda', 'Yolo - Kiribathgoda', 'Mon Vie - Colombo 05', 'The Golf - Colombo 08', 'J Adore - Negombo', 'The Seasons - Colombo 08', 'கம்பஹா - The Palace', 'Mon Vie - Colombo 05', '86,000,000 LKR', 'The Golf - Colombo 08', '95,700,000 LKR', 'J Adore - Negombo', '52,000,000 LKR', 'The Seasons - Colombo 08', '127,000,000 LKR', 'கம்பஹா - The Palace', '22,000,000 LKR', 'Skye Blossom - Kottawa', '50,000,000 LKR', 'Venezia - Negombo', '58,000,000 LKR', 'The Reflection - Samagi Mawatha Thalawathugoda', '52,000,000 LKR', 'Yolo - Kiribathgoda', '35,000,000 LKR', 'Mon Vie - Colombo 05', '86,000,000 LKR', 'The Golf - Colombo 08', '95,700,000 LKR', 'J Adore - Negombo', '52,000,000 LKR', 'The Seasons - Colombo 08', '127,000,000 LKR', 'கம்பஹா - The Palace', '22,000,000 LKR', 'Skye Blossom - Kottawa', '50,000,000 LKR', 'Venezia - Negombo', '58,000,000 LKR', 'The Reflection - Samagi Mawatha Thalawathugoda', '52,000,000 LKR', 'Yolo - Kiribathgoda', '35,000,000 LKR', 'Mon Vie - Colombo 05', '86,000,000 LKR', 'ඔබේ දේපල සොයන්න', 'පෙරහන', 'දිස්ත්\u200dරික්ක', 'ජනප්\u200dරිය නගර', 'SKYE BLOSSOM - KOTTAWA', '50,000,000 LKR', 'VENEZIA - NEGOMBO', '58,000,000 LKR', 'THE REFLECTION - SAMAGI MAWATHA THALAWATHUGODA', '52,000,000 LKR', 'YOLO - KIRIBATHGODA', '35,000,000 LKR', 'MON VIE - COLOMBO 05', '86,000,000 LKR', 'THE GOLF - COLOMBO 08', '95,700,000 LKR', 'පෙරහන', 'දිස්ත්\u200dරික්ක', 'ජනප්\u200dරිය නගර', 'අනුබද්ධිත ආයතන', 'AI Assistant', "Hi, I'm Prime Bee, Your AI Assistant!"]
-Price: None
+URL: https://www.primelands.lk/apartment/complete/city/Gampaha/sin
+Headings: ['මහල් නිවාස', 'විශේෂාංග සහිත මහල් නිවාස', 'Skye Blossom - Kottawa', 'Venezia - Negombo', 'The Reflection - Samagi Mawatha Thalawathugoda', 'Yolo - Kiribathgoda', 'Mon Vie - Colombo 05', 'The Golf - Colombo 08', 'J Adore - Negombo', 'The Seasons - Colombo 08', 'கம்பஹா - The Palace', 'Mon Vie - Colombo 05', '86,000,000 LKR', 'The Golf - Colombo 08', '95,700,000 LKR', 'J Adore - Negombo', '52,000,000 LKR', 'The Seasons - Colombo 08', '127,000,000 LKR', 'கம்பஹா - The Palace', '22,000,000 LKR', 'Skye Blossom - Kottawa', '50,000,000 LKR', 'Venezia - Negombo', '58,000,000 LKR', 'The Reflection - Samagi Mawatha Thalawathugoda', '52,000,000 LKR', 'Yolo - Kiribathgoda', '35,000,000 LKR', 'Mon Vie - Colombo 05', '86,000,000 LKR', 'The Golf - Colombo 08', '95,700,000 LKR', 'J Adore - Negombo', '52,000,000 LKR', 'The Seasons - Colombo 08', '127,000,000 LKR', 'கம்பஹா - The Palace', '22,000,000 LKR', 'Skye Blossom - Kottawa', '50,000,000 LKR', 'Venezia - Negombo', '58,000,000 LKR', 'The Reflection - Samagi Mawatha Thalawathugoda', '52,000,000 LKR', 'Yolo - Kiribathgoda', '35,000,000 LKR', 'Mon Vie - Colombo 05', '86,000,000 LKR', 'ඔබේ දේපල සොයන්න', 'පෙරහන', 'දිස්ත්\u200dරික්ක', 'ජනප්\u200dරිය නගර', 'ගම්පහ - THE PALACE', '22,000,000 LKR', 'පෙරහන', 'දිස්ත්\u200dරික්ක', 'ජනප්\u200dරිය නගර', 'අනුබද්ධිත ආයතන', 'AI Assistant', "Hi, I'm Prime Bee, Your AI Assistant!"]
+Price: 86,000,000 LKR
 Bedrooms: None
 Bathrooms: None
 Size (sqft): None
@@ -62,10 +62,10 @@ Agent: None
 </div>
 <!-- Desktop visible menu  -->
 <div class="header_lang text-dark ms-sm-3 ms-2" style="width: fit-content;">
-<a href="https://www.primelands.lk/apartment/ongoing/en">
+<a href="https://www.primelands.lk/apartment/complete/city/Gampaha/en">
 <span class="lan_text_s">En   |   </span>
 </a>
-<a href="https://www.primelands.lk/apartment/ongoing/tam">
+<a href="https://www.primelands.lk/apartment/complete/city/Gampaha/tam">
 <span class="lan_text_s">தமி</span>
 </a>
 </div>

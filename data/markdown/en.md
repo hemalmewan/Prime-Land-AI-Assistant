@@ -1,8 +1,8 @@
-# Land for sale in Hambantota| Prime Lands
+# AUROUS HOMAGAMA
 
-URL: https://www.primelands.lk/land/district/Hambantota/en
-Headings: ['Lands', 'Featured Lands', 'Green Crest – Horana', '495,000 LKR', 'Luxora – Kiribathgoda', '1,875,000 LKR', 'Luxcore City – Malabe', '1,800,000 LKR', 'Evara – Nawalapitiya', '150,000 LKR', 'Aurelia – Alubomulla', '465,000 LKR', 'Adora - Naiwala', '475,000 LKR', 'Elite Avenue – Kahathuduwa', '675,000 LKR', 'Denver - Kahathuduwa', '795,000 LKR', 'Nexus Town - Aluthgama', '255,000 LKR', 'Lush Dale - Homagama', '535,000 LKR', 'Adora - Naiwala', '475,000 LKR', 'Elite Avenue – Kahathuduwa', '675,000 LKR', 'Denver - Kahathuduwa', '795,000 LKR', 'Nexus Town - Aluthgama', '255,000 LKR', 'Lush Dale - Homagama', '535,000 LKR', 'Green Crest – Horana', '495,000 LKR', 'Luxora – Kiribathgoda', '1,875,000 LKR', 'Luxcore City – Malabe', '1,800,000 LKR', 'Evara – Nawalapitiya', '150,000 LKR', 'Aurelia – Alubomulla', '465,000 LKR', 'Adora - Naiwala', '475,000 LKR', 'Elite Avenue – Kahathuduwa', '675,000 LKR', 'Denver - Kahathuduwa', '795,000 LKR', 'Nexus Town - Aluthgama', '255,000 LKR', 'Lush Dale - Homagama', '535,000 LKR', 'Green Crest – Horana', '495,000 LKR', 'Luxora – Kiribathgoda', '1,875,000 LKR', 'Luxcore City – Malabe', '1,800,000 LKR', 'Evara – Nawalapitiya', '150,000 LKR', 'Aurelia – Alubomulla', '465,000 LKR', 'Find Your Dream\n                Property', 'Filters', 'Districts', 'Popular Cities', 'Urban Centre - Walasmulla', '450,000 LKR', 'Tangalle - The Sand', 'Filters', 'Districts', 'Popular Cities', 'Group of Companies', 'AI Assistant', "Hi, I'm Prime Bee, Your AI Assistant!"]
-Price: Filters
+URL: https://www.primelands.lk/land/AUROUS-HOMAGAMA/en
+Headings: ['Thank You!', 'Failed', 'AUROUS HOMAGAMA', 'About This Property', 'Payment Plan', 'Facilities', 'Loan Calculator', 'Monthly payment : 178,020.00', 'INQUIRE', 'Video', 'WE ALSO RECOMMEND', 'GREEN HEAVEN ARTIGALA', 'SOLD OUT', 'GREEN HEAVEN ARTIGALA', 'SOLD OUT', 'GREEN HEAVEN ARTIGALA', 'SOLD OUT', 'GREEN HEAVEN ARTIGALA', 'SOLD OUT', 'GREEN HEAVEN ARTIGALA', 'SOLD OUT', 'GREEN HEAVEN ARTIGALA', 'SOLD OUT', 'GREEN HEAVEN ARTIGALA', 'SOLD OUT', 'GREEN HEAVEN ARTIGALA', 'SOLD OUT', 'GREEN HEAVEN ARTIGALA', 'SOLD OUT', 'Group of Companies', 'AI Assistant', "Hi, I'm Prime Bee, Your AI Assistant!"]
+Price: None
 Bedrooms: None
 Bathrooms: None
 Size (sqft): None
@@ -12,7 +12,7 @@ Agent: None
 
 ## Content
 
-<main class="">
+<main class="pb-0">
 <div class="container-fluid main_navbar">
 <div class="d-flex justify-content-between align-items-center">
 <div>
@@ -62,10 +62,10 @@ Agent: None
 </div>
 <!-- Desktop visible menu  -->
 <div class="header_lang text-dark ms-sm-3 ms-2" style="width: fit-content;">
-<a href="https://www.primelands.lk/land/district/Hambantota/sin">
+<a href="https://www.primelands.lk/land/AUROUS-HOMAGAMA/sin">
 <span class="lan_text_s">සිං   |   </span>
 </a>
-<a href="https://www.primelands.lk/land/district/Hambantota/tam">
+<a href="https://www.primelands.lk/land/AUROUS-HOMAGAMA/tam">
 <span class="lan_text_s">தமி</span>
 </a>
 </div>

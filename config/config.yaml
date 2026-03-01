@@ -14,7 +14,7 @@ provider:
   ## Model tier general,strong or reasoning
   tier: general
   ## Open router base url
-  openrouter_url: https://openrouter.ai/settings/keys
+  openrouter_url: https://openrouter.ai/api/v1
 
 ##=====================================
 ## LLM Configuration
@@ -30,7 +30,7 @@ llm:
 embedding:
   ## Model tier default or small
   tier: default
-  batch_size: 100
+  batch_size: 20
   show_progress: false
 
 # ====================================
@@ -39,7 +39,7 @@ embedding:
 crawling:
   base_url: https://www.primelands.lk
   max_depth: 3
-  max_pages: 20
+  max_pages: 500
   timeout: 30000
   rate_limit_seconds: 2.0
 
@@ -47,10 +47,10 @@ crawling:
 ## Project Paths Configuration
 ##====================================
 data_dir: data
-vector_dir: data/vectorstore
-crawl_dir: data/raw
+chunks_dir: data/chunkings
 markdown_dir: data/markdown
 processed_dir: data/processed
+cache_dir: data/cache
 
 ##====================================
 ## Chunking Configuration
@@ -82,3 +82,28 @@ chunking:
     base_size: 1000
     split_size: 300
     context_window: 150
+
+
+##===================================
+## Retrieval Configuration
+##===================================
+retrieval:
+  top_k: 5
+  similarity_threshold: 0.7
+
+# ============================================================================
+# CAG(Cache Augmentation Generation) Configuration
+# ============================================================================
+cag:
+  cache_ttl: 86400  # 24 hours in seconds (legacy, use history_ttl_hours)
+  max_cache_size: 1000
+  similarity_threshold: 0.90  # 0.90-0.95 recommended for paraphrase matching
+  history_ttl_hours: 24  # Dynamic history expires after 24 hours
+
+# ============================================================================
+# CRAG (Corrective Retrieval Augmentation Generation) Configuration
+# ============================================================================
+crag:
+  confidence_threshold: 0.6
+  expanded_k: 8
+
