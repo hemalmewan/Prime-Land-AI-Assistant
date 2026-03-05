@@ -17,7 +17,7 @@ from langchain_core.runnables import (
 
 ## user define prompt template for RAG
 from src.context_engineering.prompts.rag_template import PRIME_LAND_RAG_TEMPLATE
-from src.context_engineering.utils import format_docs,calculate_confidence
+from src.context_engineering.utils import format_docs,calculate_confidence,precision_at_5_keyword
 from src.context_engineering.config import TOP_K
 
 
@@ -215,9 +215,12 @@ class QdrantRAGService:
 
         ##calculate confidence score for retrieve documents
         rag_confidence_score=calculate_confidence(docs=evidence,query=query)
+        ## calculate the precision@5 for retrived documents
+        precision=precision_at_5_keyword(retrieved_docs=evidence,query=query)
 
         if verbose:
              print(f"✅ Confidence Score: {rag_confidence_score:.4f}")
+             print(f"✅ Pricision@5: {precision:.4f}")
              print("🧠 Step 3: Generating grounded response using LLM...")
         
         answer=self.chain.invoke(query)
@@ -241,6 +244,7 @@ class QdrantRAGService:
         return{
             "answer":answer,
             "confidence_score":rag_confidence_score,
+            "Precision@5":precision,
             "evidence":evidence,
             "evidence_urls":evidence_urls,
             "generation_time":elapsed,

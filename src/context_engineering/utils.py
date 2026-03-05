@@ -1,13 +1,10 @@
-"""
-This module converts messy LangChain Documents into a clean string format
-optimized for LLM input in a Real Estate RAG system.
 
-It ensures structured property metadata is clearly injected into the
-prompt context, improving grounding, reasoning, and hallucination control.
-"""
-
+##=================================
+## Import Required Libraries
+##=================================
 from typing import List
 from langchain_core.documents import Document
+from src.context_engineering.config import TOP_K
 
 
 def format_docs(docs: List[Document]) -> str:
@@ -124,3 +121,24 @@ def calculate_confidence(docs: list, query: str) -> float:
     )
     
     return confidence
+
+
+def precision_at_5_keyword(retrieved_docs: list, query: str) -> float:
+    """
+    Approximate Precision@5 using keyword overlap heuristic.
+    """
+
+    if not retrieved_docs:
+        return 0.0
+
+    query_words = set(query.lower().split())
+    relevant_count = 0
+
+    for doc in retrieved_docs:
+        doc_words = set(doc.page_content.lower().split())
+        overlap = len(query_words & doc_words)
+        
+        if overlap > 2:  # threshold for relevance
+            relevant_count += 1
+
+    return relevant_count / TOP_K
